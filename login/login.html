@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <!-- The main css file for this page -->
+    <link rel="stylesheet" href="Css.login/login.css">
+    <!-- Css File To Render All Elements -->
+    <link rel="stylesheet" href="../Css/normalize.css">
+    <!-- special library for font awesome -->
+    <link rel="stylesheet" href="../Css/all.min.css">
+    <link rel="icon" href="images/262552-blue-gaming-pc-wallpaper-top-free-blue-gaming-pc-background.jpg" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <!-- header -->
+    <nav class="nav">
+        <h1><span style="color: turquoise;">G</span>ames<span style="color: turquoise;">W</span>ish</h1>
+        <!-- <img class="logo" src="" alt=""> -->
+            <ul class="menu">
+                <li class="menu-item"><a href="../main/main.html">Home</a> </li>
+                <li class="menu-item"><a href="../games/games.html">Games</a>
+                    <ul class="submenu">
+                        <li class="submenu-item"><a href="../Call of duty/cod.html">Cod</a></li>
+                        <li class="submenu-item"><a href="../Pubg/Pubg.html">Pubg</a></li>
+                        <li class="submenu-item"><a href="../Pes/pes.html">PES</a></li>
+                        <li class="submenu-item"><a href="../Free fire/free.html">Free Fire</a></li>
+                        <li class="submenu-item"><a href="../Fifa/fifa.html">FIFA</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a href="../contact us mina/contact.html">Contact</a> </li>
+                <li class="menu-item"><a href="../about us/about.html">About</a> </li>
+            </ul>
+        <div class="login-link">
+        <a href="login.html" class="login-icon"><i class="fas fa-user"></i></a>
+        </div>
+    </nav>
+    <!-- login container -->
+    <div id="form" class="login-box">
+        <h1>Sign in</h1>
+        <!-- username box -->
+        <div class="text-box">
+            <i id="id" class="fas fa-user"></i>
+            <input required="required" autocomplete="off" id="username" type="text" placeholder="Username" >
+        </div>
+
+        <!-- password box -->
+        <div class="text-box">
+            <i id="pass" class="fas fa-lock"></i>
+            <input required="required" id="password" type="password" placeholder="Password">
+            <i style="cursor: pointer;" id="eye" class="far fa-eye" onclick="toggle()"></i>
+        </div>
+
+        <!-- button box -->
+        <div class="button">
+            <button class="btn">Login</button>
+        </div>
+
+        <!-- bottom text link of forget password -->
+        <div class="bottom-text">
+            <input type="checkbox" checked> Remmber me
+            <a href="#" style="font-size: 14px;">Forgot Password ?</a>
+        </div>
+
+        <!-- font icons (social) -->
+        <div class="social">
+            <a  href="#"><i class="fab fa-facebook-f"></i></a>
+            <a  href="#"><i class="fab fa-twitter"></i></a>
+            <a  href="#"><i class="fab fa-instagram"></i></a>
+            <a  href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <hr>
+
+        <!-- don't have accont -->
+        <div class="accont">
+           <a href="#" style="font-size: 14px;">Don't Have An Account?</a>
+        </div>
+        
+        <!-- sign in -->
+        <div class="sign-in-button">
+            <button class="sign-in-btn" >Sign up</button>
+        </div>
+
+    </div>
+    <!-- The main js file for this page -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text"><span style="color: turquoise;">G</span>ames<span style="color: turquoise;">W</span>ish</h1>
+                <hr>
+                <p>
+                    Compete with 100 players on a remote island for a winner-takes-all showdown where strategic gameplay is as important as shooting skills
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone-alt"></i> &nbsp; 905-832-5854</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; John@Groverwebdesign.com</span>
+                </div>
+                <div class="social-footer">
+                    <a  href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a  href="#"><i class="fab fa-twitter"></i></a>
+                    <a  href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a  href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h1>Quick Links</h1>
+                <hr>
+                <!-- <br> -->
+                <ul>
+                    <li ><a href="../main/main.html">Home</a></li>
+                    <li ><a href="../games/games.html">Games</a></li>
+                    <li ><a href="../contact us mina/contact.html">Contact</a></li>
+                    <li ><a href="../about us/about.html">About</a></li>
+                    <li ><a href="../login/login.html">Login</a> </li>
+                </ul>
+            </div>
+            <div class="footer-section games">
+                <h1>Top 5</h1>
+                <hr>
+                <!-- <br> -->
+                <ul>
+                    <li ><a href="../Call of duty/cod.html">Cod</a></li>
+                    <li ><a href="../Pubg/Pubg.html">Pubg</a></li>
+                    <li ><a href="../Pes/pes.html">PES</a></li>
+                    <li ><a href="../Free fire/free.html">FreeFire</a></li>
+                    <li ><a href="../Fifa/fifa.html">FIFA</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-right">
+            &copy; GamesWish.com | Designed by Maysara Nagy | Header&Footer Designed by Maysara Nagy
+        </div>
+    </div>
+    <!-- footer -->
+    <script src="js.login/login.js">
+    </script>
+</body>
+</html>
